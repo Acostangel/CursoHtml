@@ -1,0 +1,89 @@
+header{
+    background-color:darkturquoise;
+    margin-bottom: 10px;
+    padding: 20px;
+   
+}
+#TitulosCabecera{
+    color:aliceblue ;
+    text-align: center;
+}
+body{
+
+    background-color:lightgray;
+}
+.container{
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    padding: 30px;
+}
+ul,li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul.slider{
+    position: relative;
+    width: 800px;
+    height: 800px;
+}
+
+ul.slider li{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: .5s;
+}
+ul.slider li img{
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+}
+ul.slider li:first-child{
+    opacity: 1;
+}
+ul.slider li:target{
+    opacity: 1;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu{
+    text-align: center;
+    margin: 20px;
+}
+.menu li a{
+    text-align: center;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+
+#DivMenu{
+    background-color: #b0cac7;
+    padding: 5px;
+}
+#menu{
+    color: aliceblue;
+}
+#DivmenuContactos{
+    margin: 20px;
+}
+footer{
+    background-color: midnightblue;
+    padding: 30px;
+    margin-top: 100%;
+}
