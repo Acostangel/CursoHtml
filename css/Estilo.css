@@ -2,7 +2,6 @@ header{
     background-color:darkturquoise;
     margin-bottom: 10px;
     padding: 20px;
-   
 }
 #TitulosCabecera{
     color:aliceblue ;
@@ -16,7 +15,7 @@ body{
     margin: auto;
     background-color: white;
     width: 640px;
-    height: 391px;
+    height: 398px;
     padding: 30px;
 }
 ul,li{
@@ -50,13 +49,16 @@ ul.slider li:first-child{
 ul.slider li:target{
     opacity: 1;
 }
+ul.menu li a:target{
+    color: blue;
+}
 .menu li{
     display: inline-block;
     text-align: center;
 }
 .menu{
     text-align: center;
-    margin: 20px;
+    margin: 8px;
 }
 .menu li a{
     text-align: center;
@@ -65,19 +67,34 @@ ul.slider li:target{
     text-decoration: none;
     background-color: grey;
     padding: 3px;
+   /*  margin-top: -1px;*/
     width: 18px;
     height:18px;
     font-size: 18px;
     border-radius: 100%;
 }
-
-
+.menu li a:hover{
+    background:#b0cac7;
+    color:#ff5722;
+}
 #DivMenu{
     background-color: #b0cac7;
-    padding: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
 }
-#menu{
-    color: aliceblue;
+.OpcionesMenu{
+    background: white;
+    color:teal;
+    padding: 10px 30px;
+    border-radius: 3%; 
+    display: inline-block;
+    text-decoration: none;
+}
+.OpcionesMenu:hover{
+    background: #cffffe;
+    color:#ff5722;
 }
 #DivmenuContactos{
     margin: 20px;
